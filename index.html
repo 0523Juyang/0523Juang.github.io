@@ -1,2 +1,58 @@
-hello
-this is a test page for YoloV8
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YoloV8 Object Detection</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>YoloV8 Object Detection</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#subscribe" role="button">Subscribe</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>What is YoloV8?</h2>
+                    <h3>The next generation in object detection</h3>
+                </hgroup>
+                <p>YoloV8 (You Only Look Once, version 8) is an advanced AI model designed for real-time object detection, tracking, and image segmentation. It is highly efficient and capable of detecting multiple objects in a single frame with high accuracy.</p>
+                <figure>
+                    <img src="https://files.oaiusercontent.com/file-LzM22EHVTPxjgVZdofbrAh?se=2025-01-19T06%3A35%3A38Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D606516a6-1164-45c8-8585-37727f8b687b.webp&sig=/i/VwsnkViWSWQciwCpY7jYz7tu9NwCuIVn0aGwOkgE%3D" alt="YoloV8 Object Detection Concept" />
+                    <figcaption><a href="https://ultralytics.com/yolov8" target="_blank">Learn more about YoloV8</a></figcaption>
+                </figure>
+                <h3>Real-Time Applications</h3>
+                <p>YoloV8 is used in self-driving cars, security systems, medical imaging, and retail analytics. It processes video frames in real-time, making it ideal for dynamic environments.</p>
+                <h3>Key Features</h3>
+                <p>YoloV8 boasts features like high-speed inference, multi-object tracking, and robust segmentation capabilities, making it a game-changer in computer vision.</p>
+            </section>
+        </div>
+    </main>
+    <section aria-label="Subscribe example">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Stay Updated</h2>
+                    <h3>Subscribe to our newsletter</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="Your First Name" aria-label="First Name" required />
+                    <input type="email" id="email" name="email" placeholder="Your Email Address" aria-label="Email Address" required />
+                    <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+                </form>
+            </article>
+        </div>
+    </section>
+    <footer class="container">
+        <small><a href="https://ultralytics.com">Ultralytics</a> • <a href="https://github.com/ultralytics/yolov8">GitHub</a></small>
+    </footer>
+</body>
+</html>
